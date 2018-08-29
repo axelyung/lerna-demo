@@ -1,0 +1,16 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node service.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "express": "^4.16.3",
+    "helpers": "^1.0.0",
+    "koa": "^2.5.2",
+    "lodash": "^4.17.10"
+  }
+}

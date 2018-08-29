@@ -1,0 +1,14 @@
+{
+  "name": "lerna-yarn-demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Axel Yung <axelyung@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.0.6"
+  }
+}
