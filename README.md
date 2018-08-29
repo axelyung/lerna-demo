@@ -1,6 +1,9 @@
 # Proposal for new repo structure
 
 ```
+## Capitalized = directory
+## lowercase = file
+
 ├── Apps
 ├   ├── Admin
 ├   ├── Patient
