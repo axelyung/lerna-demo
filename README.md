@@ -16,7 +16,6 @@
 ├   ├   ├── package.json
 ├   ├   └── ...
 ├   └── Shared (@apps/shared)
-├       ├── Constants
 ├       ├── Utils
 ├       ├── Tools
 ├       ├── Client
