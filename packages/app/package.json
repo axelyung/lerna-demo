@@ -7,7 +7,6 @@
     "start": "babel-node app.js"
   },
   "dependencies": {
-    "@demo/service": "^1.0.0",
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "koa": "^2.5.2",
