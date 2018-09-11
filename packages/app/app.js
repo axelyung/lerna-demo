@@ -1,13 +1,13 @@
 const Koa = require('koa');
-const Axios = require('axios');
+const serviceAdapter = require('@demo/service/adapter');
 
 const app = new Koa();
 
 app.use(async (ctx) => {
-    console.log('sending request to service...');
-    ctx.body = (await Axios.get('http://localhost:3001')).data;
+    console.log('Sending request to service...');
+    ctx.body = await serviceAdapter.getGreeting();
 });
 
-const port = 3000;
+const port = 3001;
 
 app.listen(port, () => console.log(`App up and running on port ${port}`));

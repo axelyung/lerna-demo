@@ -1,5 +1,5 @@
 {
-  "name": "helpers",
+  "name": "@demo/helpers",
   "version": "1.0.0",
   "main": "helper.js",
   "license": "MIT",
