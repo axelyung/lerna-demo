@@ -1,9 +1,8 @@
 const moment = require('moment');
 
 const getTime = () => {
-    const time = moment().format('h:mm:ss a');
-    console.log(`HELPER: Time now is ${time}`);
-    return time;
+    console.log('Calling getTime() in helpers module...');
+    return moment().format('h:mm:ss a');
 };
 
 module.exports = { getTime };
