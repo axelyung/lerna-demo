@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start": "lerna run start --parallel --stream"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "author": "Axel Yung <axelyung@gmail.com>",

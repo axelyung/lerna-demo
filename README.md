@@ -43,7 +43,7 @@
 ├       ├── node_modules
 ├       ├── package.json
 ├       └── ...
-├── Shared (@shared)
+├── Shared (@global/shared)
 ├   ├── Constants
 ├   ├── Utils
 ├   ├── Tools
