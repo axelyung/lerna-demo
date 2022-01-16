@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@demo/service": "^1.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "babel-cli": "^6.26.0",
     "koa": "^2.5.2",
     "lodash": "^4.17.10"
